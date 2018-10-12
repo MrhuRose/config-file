@@ -1,0 +1,47 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.melo.springboot.domain.Person",
+      "name": "person",
+      "type": "com.melo.springboot.domain.Person"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.melo.springboot.domain.Person",
+      "name": "person.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.melo.springboot.domain.Person",
+      "name": "person.birth",
+      "type": "java.util.Date"
+    },
+    {
+      "sourceType": "com.melo.springboot.domain.Person",
+      "name": "person.boss",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.melo.springboot.domain.Person",
+      "name": "person.dog",
+      "type": "com.melo.springboot.domain.Dog"
+    },
+    {
+      "sourceType": "com.melo.springboot.domain.Person",
+      "name": "person.last-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.melo.springboot.domain.Person",
+      "name": "person.lists",
+      "type": "java.util.List<java.lang.Object>"
+    },
+    {
+      "sourceType": "com.melo.springboot.domain.Person",
+      "name": "person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>"
+    }
+  ]
+}
