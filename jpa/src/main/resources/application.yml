@@ -1,0 +1,14 @@
+spring:
+  jpa:
+  sql:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost/springboot?characterEncoding=utf-8
+    username: root
+    password:
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
